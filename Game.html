@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>俄罗斯方块游戏</title>
+    <script type="text/javascript" src="js/GameStartLayer.js"></script>
+    <script type="text/javascript" src="js/ActionType.js"></script>
+    <script type="text/javascript" src="js/GameScene.js"></script>
+    <script type="text/javascript" src="js/BlockFactory.js"></script>
+    <script type="text/javascript" src="js/Utility.js"></script>
+    <script>
+        window.onload = function() {
+            var _GameFrame = document.getElementById("GameFrame");
+            GameScene.init(_GameFrame);
+        }
+    </script>
+</head>
+<body>
+<div id="GameFrame"></div>
+</body>
+</html>
